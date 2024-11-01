@@ -17,7 +17,7 @@
           shellHook = ''
           '';
 
-          packages = [ pkgs.nodejs ];
+          packages = [ pkgs.just pkgs.nodejs ];
         };
       });
 }
